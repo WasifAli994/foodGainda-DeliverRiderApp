@@ -25,8 +25,10 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginHeading"
+        app:layout_constraintVertical_bias="0.716" />
 
     <EditText
         android:id="@+id/loginPassword"
@@ -49,7 +51,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Email"
+        app:layout_constraintTop_toBottomOf="@+id/loginEmail"
         app:layout_constraintVertical_bias="0.243" />
 
     <Button
@@ -73,6 +75,7 @@
         android:id="@+id/loginHeading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
         android:fontFamily="@font/poppins_medium"
         android:text="Account Log in"
         android:textColor="#FFFFFF"
@@ -80,7 +83,6 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/Email"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.441"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.621" />
