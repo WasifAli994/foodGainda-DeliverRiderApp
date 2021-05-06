@@ -8,7 +8,7 @@
     tools:context=".Login">
 
     <EditText
-        android:id="@+id/loginNumber"
+        android:id="@+id/loginEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -17,9 +17,9 @@
         android:background="#FF9800"
         android:ems="10"
         android:fontFamily="@font/poppins_medium"
-        android:inputType="number|textPersonName"
+        android:inputType="textEmailAddress"
         android:padding="10dp"
-        android:text="Phone Number"
+        android:text="Email"
         android:textColor="@color/white"
         android:textColorHint="#FFFFFF"
         android:textSize="15sp"
@@ -49,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginNumber"
+        app:layout_constraintTop_toBottomOf="@+id/Email"
         app:layout_constraintVertical_bias="0.243" />
 
     <Button
@@ -78,7 +78,7 @@
         android:textColor="#FFFFFF"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/loginNumber"
+        app:layout_constraintBottom_toTopOf="@+id/Email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.441"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "972148539715",
+    "project_id": "fooddeilvery",
+    "storage_bucket": "fooddeilvery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972148539715:android:13da602db4e8876de2aff6",
+        "android_client_info": {
+          "package_name": "com.example.food_delivery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972148539715-8vrdl94vu2a3c0n0p1va38boo15dmpf7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.food_delivery_app",
+            "certificate_hash": "5a918ac31479567f7679eacab90f5867c6e625c4"
+          }
+        },
+        {
+          "client_id": "972148539715-ve482ns6dcieophdhdddo6ll8g9rjm24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcrqQoYklN1vS959CxVo5qoduVgIgoQ30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972148539715-ve482ns6dcieophdhdddo6ll8g9rjm24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972148539715:android:a162b72aacfa1484e2aff6",
+        "android_client_info": {
+          "package_name": "com.example.foodriderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972148539715-ve482ns6dcieophdhdddo6ll8g9rjm24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcrqQoYklN1vS959CxVo5qoduVgIgoQ30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972148539715-ve482ns6dcieophdhdddo6ll8g9rjm24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
